@@ -1,0 +1,55 @@
+{
+  "name": "ayanami",
+  "version": "1.0.0",
+  "description": "A personal, dark-themed Windows desktop game launcher for offline and DRM-free games.",
+  "main": "./out/main/index.js",
+  "author": "Ayanami",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w3vo/Ayanami.git"
+  },
+  "homepage": "https://github.com/w3vo/Ayanami#readme",
+  "bugs": {
+    "url": "https://github.com/w3vo/Ayanami/issues"
+  },
+  "scripts": {
+    "dev": "electron-vite dev",
+    "start": "electron-vite preview",
+    "typecheck": "npm run typecheck:node && npm run typecheck:web",
+    "typecheck:node": "tsc --noEmit -p tsconfig.node.json --composite false",
+    "typecheck:web": "tsc --noEmit -p tsconfig.web.json --composite false",
+    "build": "npm run typecheck && electron-vite build",
+    "benchmarks:update": "node scripts/update-benchmarks.mjs",
+    "build:unpack": "npm run build && electron-builder --dir",
+    "build:win": "npm run build && electron-builder --win"
+  },
+  "dependencies": {
+    "7zip-bin": "^5.2.0",
+    "adm-zip": "^0.6.1",
+    "better-sqlite3": "^13.2.0",
+    "dotenv": "^18.0.10",
+    "google-auth-library": "^11.3.4",
+    "googleapis": "^190.0.0",
+    "systeminformation": "^5.33.23",
+    "webtorrent": "^3.0.21"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/adm-zip": "^0.5.8",
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "electron": "^45.3.3",
+    "electron-builder": "^26.18.0",
+    "electron-vite": "^6.0.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.8"
+  }
+}

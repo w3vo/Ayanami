@@ -1,0 +1,211 @@
+{
+  "version": 1,
+  "name": "Ayanami Sample Catalog",
+  "description": "A local demo catalog for testing the Store grid, compatibility checks, online badges, and download queue. The download links are placeholders and do not point to real files.",
+  "games": [
+    {
+      "slug": "echoes-of-the-void",
+      "title": "Echoes of the Void",
+      "synopsis": "A signal from beyond the heliopause has begun repeating your own voice back to you. Chart derelict stations, salvage impossible technology, and decide how much of yourself you are willing to transmit in return. A slow-burn science-fiction action RPG built around exploration and consequence.",
+      "releaseYear": 2025,
+      "developer": "Null Signal Studio",
+      "publisher": "Ayanami Sample Works",
+      "genres": [
+        "Action RPG",
+        "Sci-Fi",
+        "Exploration"
+      ],
+      "storageGb": 58,
+      "download": {
+        "url": "https://example.invalid/ayanami/echoes-of-the-void-preinstalled.zip",
+        "type": "http",
+        "releaseType": "preinstalled",
+        "sizeBytes": 62277025792
+      },
+      "requirements": {
+        "minimum": {
+          "cpu": "Intel Core i5-8400 / AMD Ryzen 5 2600",
+          "gpu": "NVIDIA GTX 1060 6GB / AMD RX 580 8GB",
+          "ramGb": 8,
+          "storageGb": 58
+        },
+        "recommended": {
+          "cpu": "Intel Core i7-10700 / AMD Ryzen 5 5600",
+          "gpu": "NVIDIA RTX 3060 / AMD RX 6600 XT",
+          "ramGb": 16,
+          "storageGb": 58
+        }
+      }
+    },
+    {
+      "slug": "neon-divide",
+      "title": "Neon Divide",
+      "synopsis": "Two rival courier crews, one rain-soaked megacity, and a district-wide blackout that nobody is willing to explain. Neon Divide is a competitive squad shooter, dense vertical maps, and a soundtrack that refuses to sit still.",
+      "releaseYear": 2026,
+      "developer": "Static Bloom",
+      "publisher": "Static Bloom",
+      "genres": [
+        "FPS",
+        "Multiplayer",
+        "Cyberpunk"
+      ],
+      "storageGb": 72,
+      "download": {
+        "url": "magnet:?xt=urn:btih:0123456789abcdef0123456789abcdef01234567&dn=Neon.Divide",
+        "type": "torrent",
+        "releaseType": "repack",
+        "sizeBytes": 77309741568
+      },
+      "requirements": {
+        "minimum": {
+          "cpu": "Intel Core i5-12400 / AMD Ryzen 5 3600",
+          "gpu": "NVIDIA RTX 2060 / AMD RX 5700 XT",
+          "ramGb": 16,
+          "storageGb": 72
+        },
+        "recommended": {
+          "cpu": "Intel Core i7-13700K / AMD Ryzen 7 5800X3D",
+          "gpu": "NVIDIA RTX 4080 / AMD RX 7900 XT",
+          "ramGb": 32,
+          "storageGb": 72
+        }
+      }
+    },
+    {
+      "slug": "ashen-harbor",
+      "title": "Ashen Harbor",
+      "synopsis": "The lighthouse has been dark for thirty years, but the ships keep arriving. Guide a small crew through a fogbound coastal town, repair what can still be saved, and resist the tide that wants to keep everyone exactly where it found them. A compact, hand-authored adventure.",
+      "releaseYear": 2024,
+      "developer": "Low Tide Games",
+      "publisher": "Low Tide Games",
+      "genres": [
+        "Adventure",
+        "Narrative",
+        "Indie"
+      ],
+      "storageGb": 24,
+      "download": {
+        "url": "https://example.invalid/ayanami/ashen-harbor-preinstalled.zip",
+        "type": "http",
+        "releaseType": "preinstalled",
+        "sizeBytes": 25769803776
+      },
+      "requirements": {
+        "minimum": {
+          "cpu": "Intel Core i5-6400 / AMD Ryzen 3 1200",
+          "gpu": "NVIDIA GTX 960 / AMD RX 560",
+          "ramGb": 8,
+          "storageGb": 24
+        },
+        "recommended": {
+          "cpu": "Intel Core i5-10400 / AMD Ryzen 5 3600",
+          "gpu": "NVIDIA GTX 1660 Super / AMD RX 5600 XT",
+          "ramGb": 16,
+          "storageGb": 24
+        }
+      }
+    },
+    {
+      "slug": "starfall-tactics",
+      "title": "Starfall Tactics",
+      "synopsis": "Command a scavenged fleet across a collapsing orbital ring. Every ship you lose stays lost, every treaty you break follows you into the next sector, and the best route is rarely the one that keeps everyone alive. A turn-based tactics campaign with persistent crews.",
+      "releaseYear": 2026,
+      "developer": "Orbital Lantern",
+      "publisher": "Ayanami Sample Works",
+      "genres": [
+        "Strategy",
+        "Tactics",
+        "Space"
+      ],
+      "storageGb": 96,
+      "download": {
+        "url": "magnet:?xt=urn:btih:fedcba9876543210fedcba9876543210fedcba98&dn=Starfall.Tactics",
+        "type": "torrent",
+        "releaseType": "preinstalled",
+        "sizeBytes": 103079215104
+      },
+      "requirements": {
+        "minimum": {
+          "cpu": "Intel Core i5-12400 / AMD Ryzen 5 5600",
+          "gpu": "NVIDIA RTX 3060 / AMD RX 6600 XT",
+          "ramGb": 16,
+          "storageGb": 96
+        },
+        "recommended": {
+          "cpu": "Intel Core i7-13700K / AMD Ryzen 7 7800X3D",
+          "gpu": "NVIDIA RTX 4070 Ti / AMD RX 7900 XT",
+          "ramGb": 32,
+          "storageGb": 96
+        }
+      }
+    },
+    {
+      "slug": "the-last-signal",
+      "title": "The Last Signal",
+      "synopsis": "A co-operative survival story set in a radio observatory at the end of the world. Split supplies, keep the generators alive, and argue about which transmission is worth answering. Built for two to four players to survive together.",
+      "releaseYear": 2023,
+      "developer": "Quiet Antenna",
+      "publisher": "Quiet Antenna",
+      "genres": [
+        "Survival",
+        "Co-op",
+        "Horror"
+      ],
+      "storageGb": 36,
+      "download": {
+        "url": "https://example.invalid/ayanami/the-last-signal-setup.exe",
+        "type": "http",
+        "releaseType": "repack",
+        "sizeBytes": 38654705664
+      },
+      "requirements": {
+        "minimum": {
+          "cpu": "Intel Core i5-9400 / AMD Ryzen 5 2600",
+          "gpu": "NVIDIA GTX 1650 / AMD RX 570",
+          "ramGb": 8,
+          "storageGb": 36
+        },
+        "recommended": {
+          "cpu": "Intel Core i7-10700 / AMD Ryzen 5 5600X",
+          "gpu": "NVIDIA RTX 3070 / AMD RX 6700 XT",
+          "ramGb": 16,
+          "storageGb": 36
+        }
+      }
+    },
+    {
+      "slug": "paper-moon",
+      "title": "Paper Moon",
+      "synopsis": "Fold a small paper world into existence, one quiet puzzle at a time. A gentle hand-drawn game about making room for the things that do not fit anywhere else. Runs comfortably on almost any modern PC.",
+      "releaseYear": 2022,
+      "developer": "Folded Light",
+      "publisher": "Folded Light",
+      "genres": [
+        "Puzzle",
+        "Indie",
+        "Relaxing"
+      ],
+      "storageGb": 4,
+      "download": {
+        "url": "https://example.invalid/ayanami/paper-moon-preinstalled.zip",
+        "type": "http",
+        "releaseType": "preinstalled",
+        "sizeBytes": 4294967296
+      },
+      "requirements": {
+        "minimum": {
+          "cpu": "Intel Core i3-6100 / AMD Ryzen 3 1200",
+          "gpu": "Intel HD Graphics 530 / AMD Radeon RX 550",
+          "ramGb": 4,
+          "storageGb": 4
+        },
+        "recommended": {
+          "cpu": "Intel Core i5-8400 / AMD Ryzen 5 2600",
+          "gpu": "NVIDIA GTX 1050 Ti / AMD RX 570",
+          "ramGb": 8,
+          "storageGb": 4
+        }
+      }
+    }
+  ]
+}

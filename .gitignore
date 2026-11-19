@@ -1,0 +1,14 @@
+node_modules/
+out/
+dist/
+build/
+*.log
+.env
+.env.local
+*.db
+*.db-shm
+*.db-wal
+.DS_Store
+
+# Internal agent instructions — kept out of the public repository.
+AGENTS.md

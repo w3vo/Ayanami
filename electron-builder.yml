@@ -1,0 +1,34 @@
+appId: com.ayanami.launcher
+productName: Ayanami
+# better-sqlite3 ships ABI-stable N-API prebuilds, so no Visual Studio toolchain
+# is needed and rebuilding on every package would only add a build dependency.
+npmRebuild: false
+directories:
+  buildResources: build
+  output: dist
+files:
+  - out/**/*
+  - package.json
+  - assets/icon.png
+  - sources.sample.json
+# Ships the key template only (no secrets) so installed users can create
+# %APPDATA%\ayanami\.env from it without a rebuilt installer.
+extraResources:
+  - from: .env.example
+    to: .env.example
+asarUnpack:
+  - '**/*.node'
+  - '**/7zip-bin/**'
+win:
+  icon: assets/icon.ico
+  target:
+    - target: nsis
+      arch:
+        - x64
+  artifactName: ${productName}-${version}-setup.${ext}
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: always
+  createStartMenuShortcut: true
